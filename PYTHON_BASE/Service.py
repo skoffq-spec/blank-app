@@ -38,9 +38,6 @@ st.set_page_config(
     page_title="SCHEDULE_BASE",
     page_icon="💾",
 )
-editable_database = pd.DataFrame('r')
-database_ed = st.data_editor(editable_database,num_rows='dynamic')
-if st.buton('Save Changes'):
-    st.write('Updated DataFrame:')
-    st.write(database_ed)
+
          
+
